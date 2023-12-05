@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../estoques/img/fundo.png);
+    font-family: Bookman, URW Bookman L, serif;
+}
+
+.Banner {
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(31, 139, 143);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+table {
+    width: 70%;
+}
+
+th, td {
+    border: none; 
+    border-radius: 10px;
+    padding: 10px; 
+    text-align: center; 
+
+}
+
+th {
+    background-color: rgb(31, 139, 143);
+    margin-top: 10px;
+    color: white;
+}
+
+
+td {
+    background-color: #E0E0E0;
+    margin-top: 5px;
+}
+
+.btn-voltar {
+    display: block;
+    margin: 20px auto; 
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-voltar:hover {
+    background-color: lightblue; 
+    color: black;
+}
